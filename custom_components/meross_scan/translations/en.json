@@ -1,0 +1,60 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "another_device": "Re-configuration was unsuccessful, the IP address/hostname of another Meross device was used.",
+            "reconfigure_successful": "Re-configuration was successful"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "firmware_not_fully_supported": "Device not fully supported. Please contact Meross support",
+            "no_devices_found": "No devices found on the network, Please check if the IP address is correct"
+        },
+        "step": {
+            "reconfigure": {
+                "data": {
+                    "host": "Host",
+                    "update_interval": "Update interval (seconds)"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of the Meross device to connect to.",
+                    "update_interval": "If too short, device may fail to respond"
+                },
+                "description": "Update configuration for {device_name}.\n\nBefore setup, devices must be connected to the network."
+            },
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "update_interval": "Update interval (seconds)"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of the Meross device to connect to.",
+                    "update_interval": "If too short, device may fail to respond"
+                },
+                "description": "Before setup, devices must be connected to the network.\n\nThis path can be configured for meross product models including R10,EM06,EM16, etc. \n\nFor more information, please refer to 'Help'."
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current": {
+                "name": "{channel_name} Current"
+            },
+            "power": {
+                "name": "{channel_name} Power"
+            },
+            "power_factor": {
+                "name": "{channel_name} Power Factor"
+            },
+            "this_month_energy": {
+                "name": "{channel_name} This Month Energy"
+            },
+            "this_month_energy_returned": {
+                "name": "{channel_name} This Month Energy Returned"
+            },
+            "voltage": {
+                "name": "{channel_name} Voltage"
+            }
+        }
+    }
+}
