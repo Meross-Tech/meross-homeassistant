@@ -13,9 +13,8 @@
 ### Manual installation
 - Using the tool of choice open the directory for your HA configuration (where you find configuration.yaml).
 - If you do not have a custom_components directory there, you need to create it.
-- In the custom_components directory create a new folder called meross_scan.
-- In releases, download the version you need.
-- Place meross_scan directory you downloaded in the new directory you created.
+- In releases(https://github.com/Meross-Tech/meross-homeassistant/releases), download the version you need.
+- In the downloaded file, locate meross_scan directory and copy it to the custom_components directory.
 - Restart Home Assistant.
 
 ## Configuration
